@@ -1,0 +1,51 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:02:46.735547 2022] [core:error] [pid 8] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:02:46.736406 2022] [core:error] [pid 8] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:15:07.214678 2022] [core:error] [pid 8] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:15:07.215161 2022] [core:error] [pid 8] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+[Wed Feb 23 10:20:22.490008 2022] [core:error] [pid 24] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:20:22.490460 2022] [core:error] [pid 24] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:24:10.808773 2022] [core:error] [pid 9] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:24:10.809116 2022] [core:error] [pid 9] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:29:35.305875 2022] [core:error] [pid 8] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:29:35.306139 2022] [core:error] [pid 8] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:31:41.803013 2022] [core:error] [pid 9] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:31:41.803335 2022] [core:error] [pid 9] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:33:04.494544 2022] [core:error] [pid 9] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:33:04.494823 2022] [core:error] [pid 9] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:35:51.616263 2022] [core:error] [pid 9] (13)Permission denied: AH00099: could not create /var/run/apache2/apache2.pid
+[Wed Feb 23 10:35:51.616492 2022] [core:error] [pid 9] AH00100: apache2: could not log pid to file /var/run/apache2/apache2.pid
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:44:08.545540 2022] [mpm_prefork:notice] [pid 9] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 10:44:08.545993 2022] [core:notice] [pid 9] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 10:53:43.052824 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 10:53:43.053555 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.112.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 11:10:34.953122 2022] [mpm_prefork:notice] [pid 9] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 11:10:34.953487 2022] [core:notice] [pid 9] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 11:28:14.468359 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 11:28:14.468716 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 13:09:50.364115 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 13:09:50.364386 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Feb 23 13:14:52.695391 2022] [core:warn] [pid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 23 13:14:52.698479 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Wed Feb 23 13:14:52.698770 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Feb 24 10:32:46.589757 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Feb 24 10:32:46.590300 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Feb 24 10:38:01.648393 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Feb 24 10:38:01.649155 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Feb 24 11:14:53.118898 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Feb 24 11:14:53.119400 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

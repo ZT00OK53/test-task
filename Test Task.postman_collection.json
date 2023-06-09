@@ -1,0 +1,332 @@
+{
+	"info": {
+		"_postman_id": "5333e93e-7d08-4e4c-80b0-be083bc07fb3",
+		"name": "Test Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5742277",
+		"_collection_link": "https://bold-meteor-376913.postman.co/workspace/Delta~c1ce73ec-cd7d-4739-a18b-ba596c9133c8/collection/5742277-5333e93e-7d08-4e4c-80b0-be083bc07fb3?action=share&creator=5742277&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "alibaba08@mailinator.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password@123",
+									"type": "text"
+								},
+								{
+									"key": "first_name",
+									"value": "Alibaba",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Jumpa",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/OmkarKurmi/Desktop/event 1.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}register",
+							"host": [
+								"{{base_url}}register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "alibaba08@mailinator.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}login",
+							"host": [
+								"{{base_url}}login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}login",
+							"host": [
+								"{{base_url}}login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User Managment",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "Test",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "User",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "test01@mailinator.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Password@123",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/OmkarKurmi/Desktop/event 1.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}user/create",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detail",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}user/2",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Disable",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}user/disable/2",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"disable",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Enable",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}user/enable/2",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"enable",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}user/all?status=active&sort_by=first_name&sort_direction=asc&perpage=5",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"all"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "x",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "active",
+									"description": "active | trashed"
+								},
+								{
+									"key": "sort_by",
+									"value": "first_name"
+								},
+								{
+									"key": "sort_direction",
+									"value": "asc",
+									"description": "asc | desc"
+								},
+								{
+									"key": "perpage",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "Testing",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Userrr",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/C:/Users/OmkarKurmi/Desktop/event2.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}user/update/2",
+							"host": [
+								"{{base_url}}user"
+							],
+							"path": [
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
